@@ -1,0 +1,9 @@
+App(
+    appid="scd41_sensor",
+    name="SCD41 Sensor",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="scd41_sensor_app",
+    cdefines=["APP_SCD41_SENSOR"],
+    requires=["gui"],
+    stack_size=2048,
+)
